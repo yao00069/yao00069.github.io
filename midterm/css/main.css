@@ -3,6 +3,8 @@ body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
 }
 /* Center the main website container in the page */
 .website {
@@ -52,4 +54,36 @@ nav a {
     color: black;
     padding: 10px;
 }
+/* Add padding space on the right side of article */
+article {
+    padding-right: 15px;
+}
 
+/* Style the article image */
+article img {
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+/* Add padding space in the main content area */
+main {
+    padding: 15px;
+}
+/* Style section title */
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+h3 {
+    font-size: 25px;
+    font-weight: normal;
+}
+/* Add margin space between secions */
+section {
+    margin-top: 30px;
+}
+/* Decease left padding space of facts list  */
+section ul {
+    padding-left: 15px;
+}
