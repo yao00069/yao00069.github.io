@@ -1,0 +1,30 @@
+/* Set page background color,font and remove margin */
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* Center the main website container in the page */
+.website {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: paleturquoise;
+}
+/* Set header as the reference area */
+header {
+    position: relative;
+}
+/* Make header image fill full width */
+header img {
+    width: 100%;
+    display: block;
+}
+/* Position the title on top of the header image */
+header h1 {
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    color: white;
+    font-size: 46px;
+    font-weight: normal;
+}
