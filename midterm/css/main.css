@@ -28,3 +28,28 @@ header h1 {
     font-size: 46px;
     font-weight: normal;
 }
+/* Remove bullet points from navigation list */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Display navigation items in one row */
+nav li {
+    display: inline-block;
+    width: 32.9%;
+    border-right: 1px solid black;
+    text-align: center;   
+}
+/* Remove border on the last navigation item */
+nav li:last-child {
+    border-right: none;
+}
+/* Style the navigation links */
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
