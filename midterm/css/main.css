@@ -11,6 +11,7 @@ body {
     width: 1000px;
     margin: 0 auto;
     background-color: paleturquoise;
+    padding-bottom: 15px; 
 }
 /* Set header as the reference area */
 header {
@@ -41,7 +42,8 @@ nav li {
     display: inline-block;
     width: 32.9%;
     border-right: 1px solid black;
-    text-align: center;   
+    text-align: center; 
+    font-size: 23px;  
 }
 /* Remove border on the last navigation item */
 nav li:last-child {
@@ -83,7 +85,33 @@ h3 {
 section {
     margin-top: 30px;
 }
-/* Decease left padding space of facts list  */
+/* Decrease left padding space of facts list  */
 section ul {
     padding-left: 15px;
+}
+/* Add border and style form */
+form {
+    border: 1px solid black;
+    padding: 20px;
+}
+/* Display the input space full width for name an email*/
+.input {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+/* Increase space height for message */
+textarea {
+    height: 100px;
+}
+/* Style the button */
+Button {
+    display: block;   
+    margin-top: 15px; 
+    padding: 15px;
+}
+/* Style footer and move text in footer to right */
+footer {
+    position: relative;
+    top: 2px;
+    left: 86%;
 }
