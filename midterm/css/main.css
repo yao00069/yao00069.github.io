@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     background-color: paleturquoise;
     padding-bottom: 15px; 
+    margin-bottom: 15px;
 }
 /* Set header as the reference area */
 header {
