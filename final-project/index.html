@@ -6,14 +6,19 @@
     <title>Final Project</title>
 </head>
 <body>
+    <!-- Header, contain logo, nav, search and hero in header -->
     <header class="site-header">
-        <div class="wraper">
+        <!-- Use wrapper class to center content and control width -->
+        <div class="wrapper">
+            <!-- Use two div box to seperate "header-top" and "hero-content" -->
             <div class="header-top">
                 <div class="logo">
                     <img src="images/logo.png" alt="Three Star Media Logo">
                 </div>
+                <!-- Main navigation box, contain nav-list and search-bar. Notice the search-bar is form and button -->
                 <nav class="main-nav">
                     <ul class="nav-list">
+                        <!-- replace the "#" in link after the id of respective sesssion is named -->
                         <li><a href="index.html">Home</a></li>         
                         <li><a href="#">About Us</a></li>    
                         <li><a href="#">Services</a></li>
@@ -21,24 +26,58 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
+                <!-- Search Bar， use class="search-bar" to wrap the form -->
                 <div class="search-bar">
                     <form action="#" method="get">
-                        <label for="search"></label>
+                        <label for="search">Search</label>
                         <input id="search" type="text" name="search" placeholder="Search">
                         <button type="submit" class="search-btn">&#128269;</button>
                     </form> 
                 </div>    
             </div>
+            <!-- Hero Content, add background pic in CSS -->
             <div class="hero-content">
-                <h1>Welcom to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum ipsa doloremque sint alias mollitia officia doloribus dolorum asperiores commodi! Neque commodi cumque expedita ratione illo. Architecto reiciendis recusandae quis?
-                </p>
-                <a href="#" class="btn-header">Connect with us &#9654 </a>
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum ipsa doloremque sint alias mollitia officia doloribus dolorum asperiores commodi! Neque commodi cumque expedita ratione illo. Architecto reiciendis recusandae quis?</p>
+                <a href="#" class="btn-header">Connect with us &#9654;</a>
             </div>
         </div>
     </header>    
     
+    <!-- Main Body, use class = "main content"  -->
+    <Main class="main-content">
+         <!--About Section  -->
+        <section class="about-secion">
+             <!-- Use class="wrapper" to center content and control width in CSS -->
+            <div class="wrapper">
+                <!-- Use class = "About Grid" to wrap, will apply grid in CSS -->
+                <div class="about-grid">
+                    <!-- Use dive and article box to seperate image and text -->
+                    <div class="about-image">
+                        <img src="images/about-us.jpg" alt="About Us">
+                    </div>        
+                    <article class="about-text">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo totam soluta, sapiente temporibus cupiditate enim odit unde necessitatibus mollitia libero explicabo doloremque nemo, sint eum neque hic veritatis dolorum!</p>
 
+                        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, saepe est repellat accusantium, earum officiis quod voluptatem molestiae amet minus vero atque non itaque aliquam et deserunt ad voluptate iusto!</P>
+                    </article>      
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    </Main>
 
 
 
