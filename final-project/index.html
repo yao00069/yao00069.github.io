@@ -21,17 +21,16 @@
                     <ul class="nav-list">
                         <!-- replace the "#" in link after the id of respective sesssion is named -->
                         <li><a href="index.html">Home</a></li>         
-                        <li><a href="#">About Us</a></li>    
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about-us">About Us</a></li>    
+                        <li><a href="#our-services">Services</a></li>
+                        <li><a href="#our-team">Team</a></li>
+                        <li><a href="#contact-us">Contact</a></li>
                     </ul>
                 </nav>
                 <!-- Search Bar， use class="search-bar" to wrap and control the form in CSS -->
                 <div class="search-bar">
                     <form action="#" method="get">
-                        <label for="search">Search</label>
-                        <input id="search" type="text" name="search" placeholder="Search">
+                        <input id="search" type="text" name="search" placeholder="Search" aria-label="search">
                         <button type="submit" class="btn-search">&#128269;</button>
                     </form> 
                 </div>    
@@ -46,9 +45,9 @@
     </header>    
     
     <!-- Main Section -->
-    <main class="main-content">
+    <main class="site-main">
          <!--About Section  -->
-        <section class="about-section">
+        <section class="about-section" id="about-us">
              <!-- Use class="wrapper" to center content and control width in CSS -->
             <div class="wrapper">
                 <!-- Use class = "About Grid" to control the elements and play grid layout in CSS -->
@@ -68,7 +67,7 @@
             </div>
         </section>
         <!--Services Section  -->
-        <section class="services-section">
+        <section class="services-section" id="our-services">
             <!--Use wrapper class to center content and control width -->
             <div class="wrapper">
                 <h2>Our Services</h2>
@@ -132,7 +131,7 @@
         </section>
 
         <!-- Our Team Section -->
-        <section class="team-section">
+        <section class="team-section" id="our-team">
             <!-- Use wrapper class to center content and control width -->
             <div class="wrapper">
                 <h2>Our Team</h2>
@@ -164,7 +163,7 @@
             </div>
         </section>
     
-        <section class="contact-section">
+        <section class="contact-section" id="contact-us">
             <div class="wrapper">
                 <h2>Contact Us</h2>
                 <div class="contact-grid">
@@ -197,7 +196,7 @@
                             <tbody>
                                 <tr>
                                     <td>Monday - Friday</td>
-                                    <td>9 AM - 6 Pm</td>    
+                                    <td>9 AM - 6 PM</td>    
                                 </tr>
                                 <tr>
                                     <td>Saturday - Sunday</td>
@@ -218,10 +217,11 @@
         </section>
     
     </main>
-    <footer>
-
-
-
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <a href="#" target="_blank">Unsplash</a> </p> 
+        </div>
     </footer>
 
 </body>
