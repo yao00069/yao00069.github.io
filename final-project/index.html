@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Final Project</title>
+    <title>Three Star Media</title>
 </head>
 <body>
     <!-- Header, set class to  control layout in CSS  -->
@@ -31,23 +31,27 @@
                 <!-- Use div class=search-bar to wrap and control the form in CSS -->
                 <div class="search-bar">
                     <form action="#" method="get">
-                        <!-- Use aria-lable tag for accessiablity and avoid showing "Search" text   -->
+                        <!-- Use aria-label tag for accessiablity and avoid showing "Search" text   -->
                         <input id="search" type="text" name="search" placeholder="Search" aria-label="search">
                         <button type="submit" class="btn-search">&#128269;</button>
                     </form> 
                 </div>    
-            </div>
-            <!-- Hero content, add background pic in CSS -->
-            <div class="hero-content">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum ipsa doloremque sint alias mollitia officia doloribus dolorum asperiores commodi! Neque commodi cumque expedita ratione illo. Architecto reiciendis recusandae quis?</p>
-                <a href="#" class="btn-header">Connect with us &#9654;</a>
             </div>
         </div>
     </header>    
     
     <!-- Main Section -->
     <main class="site-main">
+        <!-- Hero content, add background pic in CSS -->
+        <section class="hero-section">
+            <div class="wrapper">
+                <div class="hero-content">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laborum ipsa doloremque sint alias mollitia officia doloribus dolorum asperiores commodi! Neque commodi cumque expedita ratione illo. Architecto reiciendis recusandae quis?</p>
+                    <a href="#" class="btn-header">Connect with us &#9654;</a>
+                </div>
+            </div>
+        </section>
          <!--About Section, set id and link to nav list  -->
         <section class="about-section" id="about-us">
              <!-- Use div class=wrapper to center content and control width in CSS -->
@@ -148,6 +152,7 @@
                     <!-- grid elements -->
                     <div class="team-box">
                         <h3>John Doe</h3>
+                        <p><strong>CEO and Co-owner</strong></p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quidem dolor, eum sapiente architecto tempora omnis. Voluptatem ad harum ipsa exercitationem rerum unde, odio debitis voluptates ducimus dignissimos reiciendis delectus?</p>        
                     </div>
                     
@@ -159,6 +164,7 @@
                     <!-- grid elements -->
                     <div class="team-box">
                         <h3>Bob Rite</h3>
+                        <p><strong>CFO and Co-owner</strong></p>     
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sed ut porro error. Vitae tempore asperiores minus quas dicta ut illo laudantium iure laborum repellendus. Ducimus, qui corporis! Dicta, aut.</p>
                     </div>
                 </div>
@@ -232,7 +238,7 @@
         <div class="wrapper">
             <p>&copy; Copyright Three Star Media, 2020</p>
             <!-- Use a link tag to Unsplash -->
-            <p>All images are taken from <a href="#" target="_blank">Unsplash</a> </p> 
+            <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash</a> </p> 
         </div>
     </footer>
 
