@@ -47,6 +47,85 @@ table {
 	border-spacing: 0;
 }
 
+/* Link google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Global Styles */
+/* Set base font and  box sizing model */
+html {
+	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
+}
+/* Inherit box-sizing model for all elements */
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+/* Set basic body styling and background color */
+body {
+	line-height: 1.5;
+	color: #222;
+	background-color: white;
+}
+
+/* Display image as block, make it responsive */
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Center all content in wrapper class and limit width */
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* Set default spacing for sections */
+section {
+	padding: 30px 0;
+}
+
+/* Remove underline from links */
+a {
+	text-decoration: none;
+}
+
+/* Set consistent heading styles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+/* Set modular scale fonts style for h1-h5 */
+h1 {
+	font-size: 5.063rem;
+	line-height: 1.2; /*Better spacing for large text*/
+}
+h2 {
+	font-size: 3.375rem;
+}
+h3 {
+	font-size: 2.25rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5	{
+	font-size: 1rem;
+}
+/* Set paragraph spacing */
+p {
+	margin-bottom: 1rem; 
+}
+
+
+
 
 
