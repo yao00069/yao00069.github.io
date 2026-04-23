@@ -313,5 +313,53 @@ p {
 	font-size: 1.3rem;
 	border: 1px solid #c78c06;
 }
+/* ---------------------------------------------
+                Team Section
+-----------------------------------------------*/
 
+/* Set background color for team section */
+.team-section {
+	background-color: white;
+	padding: 15px 0;
+}
 
+/* Use grid to layout team items */
+.team-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+/* Add space between second and third team box */
+.team-box:nth-child(3) {
+	margin-top: 15px;
+}
+
+/* Set background color for each team box */
+.team-box {
+	background-color: #ffe6ac;
+}
+
+/* Set spacing inside team text box */
+.team-box h3,
+.team-box p {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* Adjust spacing below team heading h3 */
+.team-box h3 {
+	margin-bottom: 0;
+}
+
+/* Add border under job title */
+.team-box p:nth-child(2) {
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #c78c06;
+}
+
+/* set bottom spacing for last paragraphs */
+.team-box p:nth-child(3) {
+	margin-bottom: 30px;
+}
