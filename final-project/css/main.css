@@ -322,35 +322,29 @@ p {
 	background-color: white;
 	padding: 15px 0;
 }
-
 /* Use grid to layout team items */
 .team-grid {
 	display: grid;
 	grid-template-columns: 1fr;
 }
-
 /* Add space between second and third team box */
 .team-box:nth-child(3) {
 	margin-top: 15px;
 }
-
 /* Set background color for each team box */
 .team-box {
 	background-color: #ffe6ac;
 }
-
 /* Set spacing inside team text box */
 .team-box h3,
 .team-box p {
 	margin-left: 15px;
 	margin-right: 15px;
 }
-
 /* Adjust spacing below team heading h3 */
 .team-box h3 {
 	margin-bottom: 0;
 }
-
 /* Add border under job title */
 .team-box p:nth-child(2) {
 	font-size: 1.1rem;
@@ -358,8 +352,64 @@ p {
 	padding-bottom: 2px;
 	border-bottom: 2px solid #c78c06;
 }
-
 /* set bottom spacing for last paragraphs */
 .team-box p:nth-child(3) {
 	margin-bottom: 30px;
 }
+
+/* ---------------------------------------------
+            	Contact Section
+-----------------------------------------------*/
+
+/* Set background color for contact section */
+.contact-section {
+	background-color: white;
+	padding: 15px 0;
+}
+/* Use grid to layout contact items */
+.contact-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
+/* Style contact form inputs and textarea */
+.contact-box input,
+.contact-box textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #222;
+}
+/* Set textarea height */
+.contact-box textarea {
+	height: 150px;
+}
+/* Style send button */
+.btn-send {
+	background-color: #222;
+	color: #c78c06;
+	padding: 0.2em 0.3em;
+	font-size: 1.5em;
+	border: none;
+}
+/* Style contact table */
+table {
+	width: 100%;
+}
+th,
+td {
+	border: 1px solid #222;
+	padding: 20px;
+	text-align: left;
+}
+th {
+	background-color: #ffe6ac;
+	text-align: center;
+}
+/* Set map style and responsive */
+.google-map iframe {
+	width: 100%;
+	height: 500px;
+	border: 0;
+}
+
