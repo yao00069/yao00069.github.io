@@ -413,3 +413,18 @@ th {
 	border: 0;
 }
 
+/* ---------------------------------------------
+            	footer
+-----------------------------------------------*/
+
+/* Set footer background and text color */
+.site-footer {
+	background-color: #222;
+	color: #c78c06;
+	padding: 35px 0 5px 0;
+}
+/* Color footer link */
+.site-footer a {
+	color: #c78c06;
+	text-decoration: underline;
+}
