@@ -226,6 +226,19 @@ p {
 	padding: 1.3em 1.8em;
 	font-size: 1.3rem;
 }
+/* ---------------------------------------------
+                 About Section
+-----------------------------------------------*/
 
-
+/* Set background color for about section */
+.about-section {
+	background-color: #ffe6ac;
+	padding: 15px 0;
+}
+/* Use grid to layout about items */
+.about-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
 
