@@ -226,6 +226,7 @@ p {
 	padding: 1.3em 1.8em;
 	font-size: 1.3rem;
 }
+
 /* ---------------------------------------------
                  About Section
 -----------------------------------------------*/
@@ -241,4 +242,49 @@ p {
 	grid-template-columns: 1fr;
 	gap: 15px;
 }
+
+/* ---------------------------------------------
+                Services Section
+-----------------------------------------------*/
+
+/* Set background color for services section */
+.services-section {
+	background-color: white;
+	padding: 15px 0;
+}
+
+/* Use grid to layout service items */
+.services-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+}
+
+/* Set background color for each service box */
+.service-box {
+	background-color: #ffe6ac;
+}
+
+/* Set spacing in service box */
+.service-box h3,
+.service-box p,
+.service-box a {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* Add space between pic and service h3 heading */
+.service-box h3 {
+	margin-top: 25px;
+}
+
+/* Style service button */
+.btn-service {
+	display: inline-block;
+	background-color: #222;
+	color: white;
+	padding: 1.3em 1.8em;
+	font-size: 1.3rem;
+	margin-bottom: 15px;
+} 
 
