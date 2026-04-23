@@ -58,6 +58,7 @@ table {
 html {
 	font-family: "Open Sans", sans-serif;
 	box-sizing: border-box;
+	font-size: 14px;
 }
 /* Inherit box-sizing model for all elements */
 *,
@@ -108,11 +109,10 @@ h5 {
 }
 /* Set modular scale fonts style for h1-h5 */
 h1 {
-	font-size: 5.063rem;
-	line-height: 1.2; /*Better spacing for large text*/
+	font-size: 4.2rem;
 }
 h2 {
-	font-size: 3.375rem;
+	font-size: 3rem;
 }
 h3 {
 	font-size: 2.25rem;
@@ -129,7 +129,7 @@ p {
 }
 
 /* ----------------------------------------------
-				  Header 
+			      Header 
 ------------------------------------------------*/
 
 /*Set header background style  */
@@ -154,7 +154,7 @@ p {
 	width: 80px;
 }
 
-/* Center all navigatin items */
+/* Center all navigation items */
 .nav-list li {
 	text-align: center;
 }
@@ -164,7 +164,7 @@ p {
 	padding: 15px 0;
 	color: #c78c06;
 }
-/* Set home link in Highlight */
+/* Highlight the home link */
 .nav-list li:first-child a {
 	background-color: #c78c06;
 	color: #222;
@@ -191,6 +191,40 @@ p {
 	border: 1px solid #c78c06;
 	background-color: #222;
 	color: #c78c06;
+}
+/* ---------------------------------------------
+                 Hero Section
+-----------------------------------------------*/
+
+/* Set hero background image */
+.hero-section {
+	background-image: url("../images/main-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+}
+/* Style hero content box */
+.hero-content {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 50px 15px 10px;
+	margin: 0 -15px;
+}
+/* Set hero heading size */
+.hero-content h1 {
+	font-size: 4.2rem;
+}
+/* Set paragraph spacing inside hero section */
+.hero-content p {
+	margin-bottom: 1rem;
+}
+/* Style hero button */
+.btn-header {
+	display: inline-block;
+	background-color: #c78c06;
+	color: #222;
+	padding: 1.3em 1.8em;
+	font-size: 1.3rem;
 }
 
 
