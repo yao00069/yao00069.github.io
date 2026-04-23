@@ -50,7 +50,10 @@ table {
 /* Link google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* Global Styles */
+/* --------------------------------------------
+               Global Styles
+---------------------------------------------*/
+
 /* Set base font and  box sizing model */
 html {
 	font-family: "Open Sans", sans-serif;
@@ -125,7 +128,70 @@ p {
 	margin-bottom: 1rem; 
 }
 
+/* ----------------------------------------------
+				  Header 
+------------------------------------------------*/
 
+/*Set header background style  */
+.site-header {
+	background-color: #222;
+	padding: 15px 0;	
+}
+/* Use flexbox to position header items in column */
+.header-top {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+/* Set logo color and style */
+.logo {
+	background-color: #c78c06;
+	padding: 15px 0;
+	width: 100%;
+} 
+/* Set logo image width */
+.logo img {
+	width: 80px;
+}
+
+/* Center all navigatin items */
+.nav-list li {
+	text-align: center;
+}
+/* Set navigation link style */
+.nav-list a {
+	display: block;
+	padding: 15px 0;
+	color: #c78c06;
+}
+/* Set home link in Highlight */
+.nav-list li:first-child a {
+	background-color: #c78c06;
+	color: #222;
+}
+/* Set hover effect to each nav link */
+.nav-list a:hover {
+	background-color: #c78c06;
+	color:#222;
+	opacity: 0.8;
+}
+/* Use flexbox to put input and button in one row */
+.search-bar form {
+	display: flex;
+}
+/* Let input take the remaining space */
+.search-bar input {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #c78c06;
+}
+/* Style the search button */
+.btn-search {
+	width: 45px;
+	border: 1px solid #c78c06;
+	background-color: #222;
+	color: #c78c06;
+}
 
 
 
