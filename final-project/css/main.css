@@ -414,7 +414,7 @@ th {
 }
 
 /* ---------------------------------------------
-            	footer
+            	Footer
 -----------------------------------------------*/
 
 /* Set footer background and text color */
@@ -428,3 +428,100 @@ th {
 	color: #c78c06;
 	text-decoration: underline;
 }
+
+/* ---------------------------------------------
+            	Media Query
+-----------------------------------------------*/
+
+@media screen and (min-width: 760px) {
+	/* Increase section spacing on desktop */
+	section {
+		padding: 50px 0;
+	}
+ 
+	/* ----------------------------------------
+					Header
+	------------------------------------------*/
+
+	/* Change header layout to horizontal */
+	.header-top {
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+	}
+
+	/* Set logo style for desktop */
+	.logo {
+		width: auto;
+		padding: 10px;
+		background-color: #c78c06;
+		flex-shrink: 0;
+	}
+
+	.logo img {
+		width: 80px;
+	}
+
+	/* Let nav take available space */
+	.main-nav {
+		flex: 1;
+	}
+
+	/* Display nav items in one row */
+	.nav-list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.nav-list li {
+		flex: 1;
+		text-align: center;
+	}
+
+	.nav-list a {
+		padding: 15px 10px;
+	}
+
+	/* Set search bar width */
+	.search-bar {
+		width: 260px;
+		flex-shrink: 0;
+	}
+
+	/* ----------------------------------------
+					Hero Session
+	------------------------------------------*/
+
+	/* Adjust hero content box for desktop */
+	.hero-content {
+		max-width: 1200px;
+		padding: 40px 30px 30px;
+		margin: 0;
+	}
+
+	.hero-content h1 {
+		font-size: 4.8rem;
+	}
+
+	/* ----------------------------------------
+					About Session
+	------------------------------------------*/
+
+	/* Change about layout to two columns */
+	.about-grid {
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+
+
+
+
+
+
+
+}
+
+
+
