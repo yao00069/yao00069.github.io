@@ -469,7 +469,7 @@ th {
 		flex: 1;
 		text-align: center;
 	}
-	/* Adjust nav link padding for desk */
+	/* Adjust nav link padding for desktop */
 	.nav-list a {
 		padding: 15px 10px;
 	}
