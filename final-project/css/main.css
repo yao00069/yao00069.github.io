@@ -446,7 +446,7 @@ th {
 		gap: 50px;
 	}
 
-	/* Set logo style for desktop */
+	/* Set logo size for desktop */
 	.logo {
 		width: auto;
 		padding: 1px;
@@ -470,7 +470,6 @@ th {
 		text-align: center;
 	}
 	/* Adjust nav link padding for desk */
-
 	.nav-list a {
 		padding: 15px 10px;
 	}
